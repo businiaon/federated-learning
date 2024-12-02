@@ -108,13 +108,13 @@ Federated parameters (default values):
 * ```Optimizer            ```: SGD 
 * ```Learning Rate        ```: 0.01 <br />
 
-```Table 1:``` Test accuracy after training for 10 global epochs with:
+```Table 1:``` Test accuracy after training for 100(IID) and 500(non-IID) global epochs with:
 
-| Model |    IID   | Non-IID (equal)|
+| Model |    IID   | Non-IID|
 | ----- | -----    |----            |
-|  MLP  |  88.38%  |     73.49%     |
-|  MLP  |  88.38%  |     73.49%     |
-|  CNN  |  97.28%  |     75.94%     |
+|  LR  |  92.38%  |     90%     |
+|  MLP  |  97.8%  |     96%     |
+|  CNN  |  99%  |     97.8%     |
 
 
 ## Further Readings
